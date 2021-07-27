@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --white: #FFF;
+}
+
+body{
+    font: 500 1rem;
+    font-family: 'Sulphur Point', sans-serif;
+    color: var(--white);
+    h1{
+        font-size: 2rem;
+    }
+}

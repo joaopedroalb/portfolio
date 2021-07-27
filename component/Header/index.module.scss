@@ -1,0 +1,28 @@
+.headerContainer{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    
+    span{
+        cursor: pointer;
+        padding-right: 2rem;
+        padding-top: 2rem;
+        
+        .icon{
+            &:hover{
+                
+            }
+        }
+
+        .iconLight{
+            color: black;
+            transform: rotate(260deg);
+        }
+    }
+}
