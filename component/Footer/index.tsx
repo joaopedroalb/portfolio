@@ -1,6 +1,6 @@
 import styles from './index.module.scss'
 
-import {ImLinkedin2,ImGithub,ImTwitter,ImNewspaper } from 'react-icons/Im'
+import {ImLinkedin2,ImGithub,ImTwitter,ImNewspaper } from 'react-icons/im'
 
 import Aos from 'aos'
 import 'aos/dist/aos.css'
