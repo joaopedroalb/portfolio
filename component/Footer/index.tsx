@@ -23,7 +23,7 @@ export default function Footer(){
     const linkedinUrl = "https://www.linkedin.com/in/jo%C3%A3o-pedro-albuquerque-3047551b9/";
     const twitterUrl = "https://twitter.com/jpedroalb_dev";
     const githubUrl = "https://github.com/joaopedroalb";
-    const canvasUrl = "https://www.canva.com/design/DAElVxg9R_c/wAmiYmT7wNl65aQu4-go5w/view?utm_content=DAElVxg9R_c&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink";
+    const canvasUrl = "https://www.canva.com/design/DAFBoUKi7Sg/Eq_ELVpCI8_tGuAkUHndSQ/view?utm_content=DAFBoUKi7Sg&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink";
 
     return(
         <div className={isDark ? styles.container:styles.containerLight}>
