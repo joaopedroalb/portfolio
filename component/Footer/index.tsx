@@ -28,16 +28,16 @@ export default function Footer(){
     return(
         <div className={isDark ? styles.container:styles.containerLight}>
             <div data-aos="fade-up" data-aos-delay="2000">
-                <a href={linkedinUrl} target="_blank"><span><ImLinkedin2 size={45}/></span></a>
+                <a href={linkedinUrl} target="_blank" rel='noreferrer'><span><ImLinkedin2 size={45}/></span></a>
             </div>
             <div data-aos="fade-up" data-aos-delay="2300">
-                <a  href={githubUrl} target="_blank"><span><ImGithub size={45}/></span></a>
+                <a  href={githubUrl} target="_blank" rel='noreferrer'><span><ImGithub size={45}/></span></a>
             </div>
             <div data-aos="fade-up" data-aos-delay="2600">
-                <a href={twitterUrl} target="_blank"><span><ImTwitter size={45}/></span></a>
+                <a href={twitterUrl} target="_blank" rel='noreferrer'><span><ImTwitter size={45}/></span></a>
             </div>
             <div data-aos="fade-up" data-aos-delay="2900">
-                <a href={canvasUrl} target="_blank"><span><ImNewspaper size={45}/></span></a>
+                <a href={canvasUrl} target="_blank" rel='noreferrer'><span><ImNewspaper size={45}/></span></a>
             </div>
         </div>
     )
